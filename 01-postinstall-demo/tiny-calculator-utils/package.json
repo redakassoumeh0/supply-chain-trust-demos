@@ -1,0 +1,9 @@
+{
+  "name": "tiny-calculator-utils",
+  "version": "1.0.0",
+  "description": "A tiny calculator helper for demo purposes.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  }
+}

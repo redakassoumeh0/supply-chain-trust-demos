@@ -1,0 +1,21 @@
+Example talking points if the live command fails:
+
+$ npm ls --depth=0
+trust-tree-demo
+├── @vitejs/plugin-react
+├── vite
+├── react
+├── react-dom
+└── antd
+
+$ npm ls --all | wc -l
+Hundreds of lines depending on installed versions.
+
+$ npm explain esbuild
+esbuild is present because Vite depends on it.
+
+$ npm explain rc-util
+rc-util is present because Ant Design depends on rc-* packages.
+
+Key message:
+You installed a small-looking frontend app, but you trusted a full dependency tree.

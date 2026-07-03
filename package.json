@@ -1,0 +1,11 @@
+{
+  "name": "supply-chain-trust-demos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Safe frontend supply chain demos for a security talk.",
+  "scripts": {
+    "demo:postinstall": "node scripts/run-postinstall-demo.js",
+    "demo:third-party": "node 03-third-party-script-demo/cdn/server.js",
+    "reset": "node scripts/reset-all.js"
+  }
+}
